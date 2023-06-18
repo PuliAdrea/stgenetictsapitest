@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using STGenetics_API.Dto;
 using STGenetics_API.Entities;
 using STGenetics_API.Services.Contracts;
 
 namespace STGenetics_API.Controllers
 {
+    [Authorize]
     [Route("api/orders")]
     [ApiController]
     public class OrdersController : Controller
