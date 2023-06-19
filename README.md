@@ -3,7 +3,7 @@
 ## Authentication
 
 - Use the Endpoint Login and in the adminName input write admin.
-- If you are using swagger, in the Autirize window enter the word Bearer followed by the token obtained in the endpoint Login
+- If you are using swagger, in the Autorize window enter the word Bearer followed by the token obtained in the endpoint Login
 - If you are using Postman, in the Headers tab add the Key Authorization and the value will be the word Bearer followed by the token obtained in the Login endpoint.
 
 ## Scripts 
